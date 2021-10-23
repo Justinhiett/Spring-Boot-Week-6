@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: games
+    password: games
+    url: jdbc:mysql://localhost:3306/videogames
+
+    
+    
+logging: 
+  level: 
+    root: warn 
+    '[com.promineotech]': debug
